@@ -1,0 +1,20 @@
+.wrapper {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.boardRow {
+    margin: 0 auto;
+}
+
+.boardRow:after {
+    clear: both;
+    content: "";
+    display: table;
+
+}
+
+.status {
+    margin-bottom: 10px;
+}
